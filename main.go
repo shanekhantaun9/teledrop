@@ -101,8 +101,9 @@ func sendFileToTelegram(apiToken string, privateChannelID string, filePath strin
 
 func main() {
     // Check if the config file exists
+    fmt.Println("[+] Author: @shanekhantaun9")
     if len(os.Args) != 2 {
-        fmt.Println("Usage: teledrop <file_path>")
+        fmt.Println("[-] Usage: teledrop <file_path>")
         return
     }
     homeDir, err := os.UserHomeDir()

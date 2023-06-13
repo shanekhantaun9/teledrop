@@ -12,3 +12,4 @@ go install github.com/shanekhantaun9/teledrop@latest
 teledrop <file_path>
 ```
 <img src="teledrop_usage.png">
+<img src="telegram.jpeg">
